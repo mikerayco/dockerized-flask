@@ -10,6 +10,7 @@ def hello():
 
 
 # #complete the function below
+#@app.route('/time', methods=['POST'])
 # def time():
 #     tz = request.json['timezone']
 #     return result ,200
