@@ -8,6 +8,11 @@ app = Flask(__name__)
 def hello():
     return 'Hello! This is a Flask app running in a container!', 200
 
+@app.route('/yow', methods=['GET'])
+def yow():
+    return 'Yow wassup man!', 200
+
+
 
 # #complete the function below
 #@app.route('/time', methods=['POST'])
